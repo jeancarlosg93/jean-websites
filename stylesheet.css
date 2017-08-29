@@ -1,5 +1,6 @@
 body{
-    background: linear-gradient(140deg, #30ffbf, #1f54e6)
+    background: linear-gradient(140deg, #30ffbf, #1f54e6);
+    background-size: 400% 400%;
 }
 
 #container {
