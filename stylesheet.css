@@ -1,6 +1,27 @@
 body{
     background: linear-gradient(140deg, #30ffbf, #1f54e6);
-    background-size: 400% 400%;
+    background-size: 200% 200%;
+
+    -webkit-animation: animatedbackdround 20s ease infinite;
+    -moz-animation: animatedbackdround 20s ease infinite;
+    animation: animatedbackdround 20s ease infinite;
+}
+
+
+@-webkit-keyframes animatedbackdround {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+@-moz-keyframes animatedbackdround {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+@keyframes animatedbackdround {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
 }
 
 #container {
