@@ -1,7 +1,5 @@
 body{
-    margin: 0px;
-    padding:0px;
-    background-color: #4b9f17;
+    background: linear-gradient(140deg, #30ffbf, #1f54e6)
 }
 
 #container {
@@ -13,19 +11,11 @@ body{
     box-shadow: rgba(0, 0, 0, 0.32) 0 0 20px;
     overflow: hidden
 }
-
-#mainpic {
-    object-fit: cover;
-    position: relative;
-    left: 634px;
-    height: 707px;
-    width: 50%;
-}
-
 .title {
+    z-index:1;
     text-align: left;
     top:100px;
-    left: 7%;
+    left: 5.5%;
     margin: 10px;
     position: absolute;
     height: 200px;
@@ -40,11 +30,21 @@ body{
     padding: 0px;
 }
 
+#mainpic {
+    object-fit: cover;
+    position: relative;
+    left: 444px;
+    height: 707px;
+    width: 65%;
+}
+
+
+
 .description {z-index: 1;
     position: absolute;
     display: inline-block;
     top: 400px;
-    left: 22%;
+    left: 8%;
     text-align: right;
     width: 350px;
     font-size: 20px;
@@ -83,14 +83,14 @@ body{
     font-family: Josefin Sans, sans-serif;
     position: absolute;
     top:70%;
-    left: 18%;
+    left: 11%;
     width: 250px;
     height: 80px;
     text-align: center;
     border-radius: 45px;
     font-size: 30px;
     color: white;
-    background-color: rgb(0, 155, 168);
+    background: linear-gradient(45deg, #0ceaae, #1f54e6);
     box-shadow: rgba(0, 0, 0, 0.38) 0 1px 10px ;
     transition: all 0.3s ease-in-out;
 }
